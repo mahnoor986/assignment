@@ -67,8 +67,14 @@ img{
     width: 300px;
     height: 300px;
     
-    
 }
-.point img{
+.on{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure{
     display: inline-block;
+    margin-left: 250px;
+    margin-right: 10px;
 }
