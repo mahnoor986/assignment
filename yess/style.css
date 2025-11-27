@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Audiowide;
+    src: url(./fonts/Audiowide-Regular.ttf);
+}
+
+@font-face {
+    font-family: lexendtera;
+    src: url(./fonts/LexendTera-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: orbitron;
+    src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: quantico;
+    src: url(./fonts/Quantico-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: red;
+
+}
+
+div {
+    background-color: azure;
+    padding: 20px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: orbitron;
+}
+
+li{
+   display: inline;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-family: lexendtera;
+
+}
+ul{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+}
+p {
+    font-family: quantico;
+    color: black;
+}
+
+.figure {
+    font-family: audiowide;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.point img{
+    display: inline-block;
+}
